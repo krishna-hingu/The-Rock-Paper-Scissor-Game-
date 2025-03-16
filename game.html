@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>game</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <h1>The Rock Paper Scissor Game</h1>
+    <!-- image choices section -->
+    <div class="choices-container">
+      <div class="choices rock" id="rock">
+        <img src="/img/rock.png" alt="rockimg" />
+      </div>
+      <div class="choices paper" id="paper">
+        <img src="/img/paper.png" alt="paperimg" />
+      </div>
+      <div class="choices scissors" id="scissor">
+        <img src="/img/scissors.png" alt="paperimg" />
+      </div>
+    </div>
+    <!-- scoare-board section -->
+    <div class="score-board">
+      <div class="score-container">
+        <div class="arrow">
+          <i class="fa-solid fa-right-long"></i>
+        </div>
+        <div class="score">
+          <p id="user-score">0</p>
+          <p class="player-name">You</p>
+        </div>
+        <div class="score">
+          <p id="comp-score">0</p>
+          <p class="player-name">Computer</p>
+        </div>
+        <div class="arrow">
+          <i class="fa-solid fa-left-long"></i>
+        </div>
+      </div>
+    </div>
+    <!-- message box -->
+    <div class="message-container">
+      <p id="msg">Play your move :]</p>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
