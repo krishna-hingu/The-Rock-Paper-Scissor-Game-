@@ -69,8 +69,7 @@ img:hover {
 }
 
 .score {
-  padding: 2%;
-  background-color: #dda15e;
+  padding: 1%;
   margin-top: 10px;
 }
 /* .player-name {
@@ -84,15 +83,22 @@ img:hover {
 /* message box */
 
 #msg {
-  margin-top: 10%;
+  margin-top: 1%;
   border-radius: 5%;
   border: 9%;
   display: inline;
   font-size: 2rem;
   line-height: 3rem;
+  padding: 10px;
 }
 
 .message-container {
-  height: 5rem;
-  margin-top: 4%;
+  height: 1rem;
+  margin-top: 1%;
+  padding: 10px;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
 }
